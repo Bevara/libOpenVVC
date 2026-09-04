@@ -1,0 +1,14 @@
+{
+    "name": "libOpenVVC",
+    "description": "VVC video decoder",
+    "filters":["vvcdec"],
+    "help": "This filter decodes VVC (H.266) video elementary streams using VVdeC. Pairs with a container demuxer (e.g. isobmff) providing framed access units and a VVCC decoder config.",
+    "support": [
+        "video"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libOpenVVC.accessor",
+    "filter_source":{
+        "vvcdec" : "dec_vvc.c"
+    },
+    "licence_required":false
+}
