@@ -10,5 +10,6 @@
     "filter_source":{
         "vvcdec" : "dec_vvc.c"
     },
-    "licence_required":false
+    "licence_required":false,
+    "Format": ["VVC"]
 }
