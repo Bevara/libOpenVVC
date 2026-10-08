@@ -11,5 +11,6 @@
         "vvcdec" : "dec_vvc.c"
     },
     "licence_required":false,
-    "Format": ["VVC"]
+    "Format": ["VVC"],
+    "using": ["solver_1"]
 }
