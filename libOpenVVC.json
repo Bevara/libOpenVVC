@@ -12,5 +12,23 @@
     },
     "licence_required":false,
     "Format": ["VVC"],
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "runtime": {
+        "vvcdec": {
+            "outputs": [
+                {
+                    "property": "GF_PROP_PID_PIXFMT",
+                    "format": [
+                        "GF_PIXEL_GREYSCALE",
+                        "GF_PIXEL_YUV_10",
+                        "GF_PIXEL_YUV",
+                        "GF_PIXEL_YUV422_10",
+                        "GF_PIXEL_YUV422",
+                        "GF_PIXEL_YUV444_10",
+                        "GF_PIXEL_YUV444"
+                    ]
+                }
+            ]
+        }
+    }
 }
