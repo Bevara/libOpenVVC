@@ -10,7 +10,6 @@
     "filter_source":{
         "vvcdec" : "dec_vvc.c"
     },
-    "licence_required":false,
     "Format": ["VVC"],
     "using": ["solver_1"],
     "runtime": {
@@ -30,5 +29,10 @@
                 }
             ]
         }
+    },
+    "patents": {
+        "status": "licence-required",
+        "note": "VVC (H.266): Access Advance, Via LA",
+        "checked": "2026-10-16"
     }
 }
