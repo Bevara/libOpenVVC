@@ -21,7 +21,8 @@
         "mm_solver_1.0.2",
         "mm_solver_1.0.3",
         "mm_solver_1.0.4",
-        "mm_solver_1.0.5"
+        "mm_solver_1.0.5",
+        "mm_solver_1.0.6"
     ],
     "runtime": {
         "vvcdec": {
